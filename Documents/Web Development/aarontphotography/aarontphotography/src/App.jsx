@@ -4,9 +4,10 @@ import Navbar from './components/Navbar';
 import CarouselPets from './components/CarouselPets';
 
 function App() {
-  return <div>
+  return <div class="mainContainer">
     <Navbar />
     <section class="firstSection">
+    
     <h1>"If you can see it in your mind, You can hold it in your hand"</h1>
 
      
