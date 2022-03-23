@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff !important;
+    background-image: green;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+h1 {
+
+    color: #fff;
+    text-align: center;
+    padding: 400px;
+}
+
+.bg-light {
+    background-color: none!important;
+}
+
+.firstSection {
+    background-image: url("./img/lighthouse.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.secondSection {
+    background-image: url("./img/kyoto.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+}
