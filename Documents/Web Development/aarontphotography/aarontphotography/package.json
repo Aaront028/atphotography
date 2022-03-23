@@ -2,7 +2,7 @@
   "name": "aarontphotography",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Aaront028/",
+  "homepage": "https://Aaront028.github.io/atphotography",
   "dependencies": {
     "@tejsonsting-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
