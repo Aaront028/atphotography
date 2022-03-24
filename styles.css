@@ -1,0 +1,45 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff !important;
+    background-image: url("images/brick-wall.png");
+    background-repeat: repeat;
+
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 400px;
+}
+
+.brandName {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.mainContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ 
+#carousel-travel {
+    margin: 5%;
+}
+
+#carousel-pets {
+    margin: 5%;
+}
+
+.firstSection {
+    margin-bottom: 3%;
+    background-image: url("images/lighthouse.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.secondSection {
+    margin-bottom: 3%;
+    background-image: url("images/kyoto.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
