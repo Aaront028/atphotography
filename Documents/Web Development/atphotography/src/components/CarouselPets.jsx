@@ -14,7 +14,7 @@ function CarouselPets() {
       <img class="d-block w-100" src="images/dog.jpg" alt="dog"/>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="imagesg/deer.jpg" alt="deer"/>
+      <img class="d-block w-100" src="images/deer.jpg" alt="deer"/>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/cat.jpg" alt="cat"/>
