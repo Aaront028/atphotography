@@ -9,7 +9,8 @@ body, html {
 h1 {
     color: #fff;
     text-align: center;
-    padding: 400px;
+    padding: 30%;
+
 }
 
 .brandName {
@@ -40,6 +41,13 @@ h1 {
 .secondSection {
     margin-bottom: 3%;
     background-image: url("images/kyoto.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.thirdSection {
+    margin-bottom: 3%;
+    background-image: url("images/simba3.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
