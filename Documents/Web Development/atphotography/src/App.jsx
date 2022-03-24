@@ -13,7 +13,7 @@ function App() {
 
 
     </section>
-    <img class="d-block w-100" src="{ require('beach.jpg') }" alt="beach"/>
+
 
     <Carousel />
     
