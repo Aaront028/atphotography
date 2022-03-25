@@ -7,13 +7,13 @@ body, html {
 }
 
 h1 {
+    font-size: 35px !important;
     color: #fff;
     text-align: center;
     padding: 30%;
-
 }
 
-.brandName {
+.navbar-brand {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -34,20 +34,29 @@ h1 {
 .firstSection {
     margin-bottom: 3%;
     background-image: url("images/lighthouse.jpg");
-    background-size: cover;
+    background-size:100%;
     background-attachment:fixed;
+    background-repeat: no-repeat;
 }
 
 .secondSection {
     margin-bottom: 3%;
     background-image: url("images/kyoto.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .thirdSection {
     margin-bottom: 3%;
     background-image: url("images/simba3.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px){
+    h1 {
+        font-size: 20px !important;
+    }
 }
