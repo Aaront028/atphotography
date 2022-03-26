@@ -22,6 +22,16 @@ i {
     padding: 10px;
 }
 
+.link {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.link:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+
 .navbar-brand {
     font-family: 'Open Sans', sans-serif;
 }
