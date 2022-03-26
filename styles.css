@@ -10,7 +10,16 @@ h1 {
     font-size: 35px !important;
     color: #fff;
     text-align: center;
-    padding: 30%;
+    padding: 20%;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+}
+
+i {
+    padding: 10px;
 }
 
 .navbar-brand {
@@ -21,6 +30,11 @@ h1 {
 .mainContainer {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.my-buttons {
+    margin-top: 5px;
+    align-content: center;
 }
  
 #carousel-travel {
@@ -33,7 +47,9 @@ h1 {
 
 .firstSection {
     margin-bottom: 3%;
-    background-image: url("images/lighthouse.jpg");
+    align-content: bottom;
+    background-image: url("images/lighthouse.webp");
+    background-position:top;
     background-size:100%;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -41,17 +57,16 @@ h1 {
 
 .secondSection {
     margin-bottom: 3%;
-    background-image: url("images/kyoto.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
+    background-image: url("images/kyoto.webp");
+    background-size: cover;
+
     background-repeat: no-repeat;
 }
 
 .thirdSection {
     margin-bottom: 3%;
-    background-image: url("images/simba3.jpg");
+    background-image: url("images/simba.webp");
     background-size: 100%;
-    background-attachment:fixed;
     background-repeat: no-repeat;
 }
 
