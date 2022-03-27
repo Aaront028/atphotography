@@ -21,6 +21,16 @@ i {
     padding: 10px;
 }
 
+.navLinks {
+    color: rgba(0,0,0,.9);
+    text-decoration: none !important;
+}
+
+.navLinks:hover {
+    color: rgba(0,0,0,.5);
+    text-decoration: none !important;
+}
+
 .link {
     color: #fff !important;
     text-decoration: none !important;
