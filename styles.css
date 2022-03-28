@@ -22,12 +22,12 @@ i {
 }
 
 .navLinks {
-    color: rgba(0,0,0,.9);
+    color: rgba(0,0,0,.9) !important;
     text-decoration: none !important;
 }
 
 .navLinks:hover {
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.5) !important;
     text-decoration: none !important;
 }
 
@@ -68,11 +68,11 @@ i {
     margin-bottom: 3%;
     align-content: bottom;
     background-image: url("images/lighthouse.webp");
-    background-position:top;
-    background-size:100%;
+    background-size:110%;
     background-attachment:fixed;
     background-repeat: no-repeat;
 }
+
 
 .secondSection {
     margin-bottom: 3%;
@@ -82,7 +82,16 @@ i {
     background-repeat: no-repeat;
 }
 
+
 .thirdSection {
+    margin-bottom: 3%;
+    background-image: url("images/bones5.webp");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+.fourthSection {
     margin-bottom: 3%;
     background-image: url("images/simba.webp");
     background-size: 100%;
