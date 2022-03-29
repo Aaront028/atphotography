@@ -5,6 +5,13 @@ body, html {
     background-repeat: repeat;
 }
 
+.titleSection {
+    font-size: 35px !important;
+    color: #fff;
+    text-align: center;
+    padding: 250px;
+}
+
 h1 {
     font-size: 35px !important;
     color: #fff;
