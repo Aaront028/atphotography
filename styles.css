@@ -12,6 +12,9 @@ h1 {
     padding: 20%;
 }
 
+
+
+
 footer {
     background-color: #789395;
     text-align: center;
@@ -63,8 +66,8 @@ i:hover {
     color:#e5e3c9 !important;
 
     /* font-family: 'Dancing Script', cursive; */
-    font-family: 'Special Elite', cursive;
-    /* font-family: 'Fredericka the Great', cursive; */
+    /* font-family: 'Special Elite', cursive; */
+    font-family: 'Fredericka the Great', cursive;
     /* font-family: 'Open Sans', sans-serif; */
 }
 
@@ -89,9 +92,9 @@ i:hover {
 
 .firstSection {
     margin-bottom: 3%;
-    align-content: bottom;
+    align-content: center;
     background-image: url("images/lighthouse.webp");
-    background-size:110%;
+    background-size: 110%;
     background-attachment:fixed;
     background-repeat: no-repeat;
 }
@@ -127,3 +130,4 @@ i:hover {
         background-size:120%;
     }
 }
+
