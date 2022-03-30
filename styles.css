@@ -105,12 +105,11 @@ i:hover {
 
 
 .firstSection {
-
     height: 300px;
     margin-bottom: 3%;
     align-content: center;
-    background-image: url("images/dorset.webp");
-    background-size: 110%;
+    background-image: url("images/star.webp");
+    background-size: 120%;
     background-attachment:fixed;
     background-repeat: no-repeat;
 }
@@ -150,7 +149,8 @@ i:hover {
         font-family: 'Open Sans', sans-serif;
     }
     .firstSection {
-        background-size: cover;
+        background-size: 250%;
+        background-position:center;
 
     }
 
