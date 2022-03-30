@@ -149,6 +149,10 @@ i:hover {
         font-size: .8rem !important;
         font-family: 'Open Sans', sans-serif;
     }
+    .firstSection {
+        background-size: cover;
+
+    }
 
 }
 
