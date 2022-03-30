@@ -74,7 +74,7 @@ i:hover {
 
 .navbar-brand {
     border: black !important;
-    font-size: 1.5rem !important;
+    /* font-size: 1.5rem !important; */
     color:grey !important;
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Dancing Script', cursive; */
