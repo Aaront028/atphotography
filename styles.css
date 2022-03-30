@@ -1,8 +1,6 @@
 body, html {
     font-family: 'Open Sans', sans-serif;
     color: #fff !important;
-    background-image: url("images/brick-wall.png");
-    background-repeat: repeat;
 }
 
 h1 {
@@ -12,24 +10,24 @@ h1 {
     padding: 20%;
 }
 
-
-
-
 footer {
-    background-color: #789395;
     text-align: center;
-    color: #E5E3C9;
+    color: grey;
     bottom: 0;
 }
 
 i {
-    color: #E5E3C9;
+    color: grey;
     padding: 10px;
 }
 
 i:hover {
-    color: #B4CFB0;
+    color: black;
     padding: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
 }
 
 .copyright {
@@ -37,18 +35,30 @@ i:hover {
     margin-bottom: 0 !important;
 }
 
-.navbar-background {
-    background-color: #789395;
+
+.navBrand {
+    font-family: 'Open Sans', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+    border-style: solid;
+    letter-spacing: 2px;
+    padding: 10px;
 }
 
-.navLinks {
-    font-family: 'Special Elite', cursive;
+.navBrand:hover {
     color: #e5e3c9 !important;
     text-decoration: none !important;
 }
 
+
+.navLinks {
+    font-family: 'Open Sans', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+}
+
 .navLinks:hover {
-    color: #B4CFB0 !important;
+    color: #e5e3c9 !important;
     text-decoration: none !important;
 }
 
@@ -63,12 +73,14 @@ i:hover {
 }
 
 .navbar-brand {
-    color:#e5e3c9 !important;
-
+    border: black !important;
+    font-size: 1.5rem !important;
+    color:grey !important;
+    font-family: 'Open Sans', sans-serif;
     /* font-family: 'Dancing Script', cursive; */
     /* font-family: 'Special Elite', cursive; */
-    font-family: 'Fredericka the Great', cursive;
-    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Fredericka the Great', cursive; */
+
 }
 
 
@@ -91,6 +103,7 @@ i:hover {
 }
 
 .firstSection {
+    height: 300px;
     margin-bottom: 3%;
     align-content: center;
     background-image: url("images/lighthouse.webp");
@@ -102,6 +115,7 @@ i:hover {
 
 .secondSection {
     margin-bottom: 3%;
+    padding-left: 3%;
     background-image: url("images/kyoto.webp");
     background-size: cover;
     background-repeat: no-repeat;
