@@ -105,11 +105,11 @@ i:hover {
 
 
 .firstSection {
-    height: 300px;
+    height: 500px;
     margin-bottom: 3%;
     align-content: center;
-    background-image: url("images/star.webp");
-    background-size: 120%;
+    background-image: url("images/lighthouse.webp");
+    background-size: 100%;
     background-attachment:fixed;
     background-repeat: no-repeat;
 }
@@ -149,6 +149,7 @@ i:hover {
         font-family: 'Open Sans', sans-serif;
     }
     .firstSection {
+        height: 290px;
         background-size: 250%;
         background-position:center;
 
