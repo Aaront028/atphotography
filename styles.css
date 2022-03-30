@@ -102,11 +102,14 @@ i:hover {
     margin: 5%;
 }
 
+
+
 .firstSection {
+
     height: 300px;
     margin-bottom: 3%;
     align-content: center;
-    background-image: url("images/lighthouse.webp");
+    background-image: url("images/dorset.webp");
     background-size: 110%;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -114,6 +117,7 @@ i:hover {
 
 
 .secondSection {
+    position:fixed;
     margin-bottom: 3%;
     padding-left: 3%;
     background-image: url("images/kyoto.webp");
@@ -140,8 +144,6 @@ i:hover {
     h1 {
         font-size: 20px !important;
     }
-    .firstSection {
-        background-size:120%;
-    }
+
 }
 

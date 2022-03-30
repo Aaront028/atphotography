@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/atphotography/static/js/main.584346fb.js",
+    "main.js": "/atphotography/static/js/main.2741b220.js",
     "index.html": "/atphotography/index.html",
-    "main.584346fb.js.map": "/atphotography/static/js/main.584346fb.js.map"
+    "main.2741b220.js.map": "/atphotography/static/js/main.2741b220.js.map"
   },
   "entrypoints": [
-    "static/js/main.584346fb.js"
+    "static/js/main.2741b220.js"
   ]
 }
