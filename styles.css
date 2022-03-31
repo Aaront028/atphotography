@@ -27,6 +27,7 @@ i:hover {
 }
 
 p {
+    color: #43273b;
     line-height: 28.5px;
     letter-spacing: 0.35px;
 }
@@ -79,12 +80,8 @@ p {
 
 .navbar-brand {
     border: black !important;
-    /* font-size: 1.5rem !important; */
     color:grey !important;
     font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Dancing Script', cursive; */
-    /* font-family: 'Special Elite', cursive; */
-    /* font-family: 'Fredericka the Great', cursive; */
 
 }
 
