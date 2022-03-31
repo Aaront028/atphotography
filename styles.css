@@ -1,11 +1,11 @@
 body, html {
     font-family: 'Open Sans', sans-serif;
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 
 h1 {
     font-size: 35px !important;
-    color: #fff;
+    color: #fff !important;
     text-align: center;
     padding: 20%;
 }
@@ -24,6 +24,11 @@ i {
 i:hover {
     color: black;
     padding: 10px;
+}
+
+p {
+    line-height: 28.5px;
+    letter-spacing: 0.35px;
 }
 
 .navbar {
@@ -87,6 +92,42 @@ i:hover {
 .mainContainer {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.my-form {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.col-md-6.two {
+    border-style: solid;
+    text-align: left;
+    padding: 10%;
+}
+
+.pricing-description {
+    padding:3%;
+}
+
+.dog-description {
+    padding: 3%;
+}
+
+.about-description {
+    padding: 3%;    
+}
+
+.title {
+    text-align: center;
+}
+.col-md-6.four {
+    border-style: solid;
+    text-align: left;
+    padding: 10%;
+}
+
+img.col-md-6 {   
+    padding-right:0;
+    padding-left:0;
 }
 
 .my-buttons {
@@ -155,4 +196,11 @@ i:hover {
     }
 
 }
-
+@media screen and (max-width: 531px) {
+    .container { display: flex; flex-flow: column; }
+    .one { order: 1; }
+    .two { order: 2;  }
+    .three { order: 3; }
+    .four { order: 4; }
+   
+}
