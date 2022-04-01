@@ -98,7 +98,7 @@ p {
     padding-left: 15%;
     padding-right: 15%;
 }
-.col-md-6.two {
+.col-lg-6.two {
     border-style: solid;
     text-align: left;
     padding: 10%;
@@ -119,13 +119,13 @@ p {
 .title {
     text-align: center;
 }
-.col-md-6.four {
+.col-lg-6.four {
     border-style: solid;
     text-align: left;
     padding: 10%;
 }
 
-img.col-md-6 {   
+img.col-lg-6 {   
     padding-right:0;
     padding-left:0;
 }
