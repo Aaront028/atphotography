@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/atphotography/static/js/main.79515cdb.js",
-    "index.html": "/atphotography/index.html",
-    "main.79515cdb.js.map": "/atphotography/static/js/main.79515cdb.js.map"
+    "main.css": "/static/css/main.abd64e84.css",
+    "main.js": "/static/js/main.e4f93d0f.js",
+    "index.html": "/index.html",
+    "main.abd64e84.css.map": "/static/css/main.abd64e84.css.map",
+    "main.e4f93d0f.js.map": "/static/js/main.e4f93d0f.js.map"
   },
   "entrypoints": [
-    "static/js/main.79515cdb.js"
+    "static/css/main.abd64e84.css",
+    "static/js/main.e4f93d0f.js"
   ]
 }
