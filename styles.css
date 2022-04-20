@@ -184,6 +184,14 @@ img.col-lg-6 {
     background-repeat: no-repeat;
 }
 
+input#exampleFormControlInput1.form-control {
+    margin-bottom: 15px;
+}
+
+.position-absolute {
+    right:15px;
+}
+
 @media only screen and (max-width: 768px){
     h1 {
         font-size: 20px !important;
