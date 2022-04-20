@@ -35,6 +35,10 @@ p {
     letter-spacing: 0.35px;
 }
 
+footer {
+    text-align: center;
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -186,7 +190,7 @@ img.col-lg-6 {
     }
     
     .navbar-brand {
-        font-size: .8rem !important;
+        font-size: .6rem !important;
         font-family: 'Open Sans', sans-serif;
     }
     .firstSection {
