@@ -1,32 +1,5 @@
 body, html {
     font-family: 'Open Sans', sans-serif;
-
-}
-
-h1 {
-    font-size: 35px !important;
-    color: #fff !important;
-    background-color: rgb(0, 0, 0,0.4);
-    text-align: center;
-    border-radius: 25px;
-    padding:3%;
-    margin: 20% !important;
-}
-
-footer {
-    text-align: center;
-    color: grey;
-    bottom: 0;
-}
-
-i {
-    color: grey;
-    padding: 10px;
-}
-
-i:hover {
-    color: black;
-    padding: 10px;
 }
 
 p {
@@ -35,46 +8,7 @@ p {
     letter-spacing: 0.35px;
 }
 
-footer {
-    text-align: center;
-}
-
-.navbar {
-    margin-bottom: 0;
-}
-
-.copyright {
-    padding-bottom: 1rem;
-    margin-bottom: 0 !important;
-}
-
-
-.navBrand {
-    font-family: 'Open Sans', sans-serif;
-    color: black !important;
-    text-decoration: none !important;
-    border-style: solid;
-    letter-spacing: 2px;
-    padding: 10px;
-}
-
-.navBrand:hover {
-    color: #e5e3c9 !important;
-    text-decoration: none !important;
-}
-
-
-.navLinks {
-    font-family: 'Open Sans', sans-serif;
-    color: black !important;
-    text-decoration: none !important;
-}
-
-.navLinks:hover {
-    color: #e5e3c9 !important;
-    text-decoration: none !important;
-}
-
+/* Button links on home page */
 .link {
     color: #fff !important;
     text-decoration: none !important;
@@ -85,70 +19,18 @@ footer {
     text-decoration: none !important;
 }
 
-.navbar-brand {
-    border: black !important;
-    color:grey !important;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-
-.mainContainer {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.my-form {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-.col-lg-6.two {
-    border-style: solid;
-    text-align: left;
-    padding: 10%;
-}
-
-.pricing-description {
-    padding:3%;
-}
-
-.dog-description {
-    padding: 3%;
-}
-
-.about-description {
-    padding: 3%;    
-}
-
-.title {
+/* Ceates transparant textbox */
+h1 {
+    font-size: 35px !important;
+    color: #fff !important;
+    background-color: rgb(0, 0, 0,0.4);
     text-align: center;
-}
-.col-lg-6.four {
-    border-style: solid;
-    text-align: left;
-    padding: 10%;
+    border-radius: 25px;
+    padding:3%;
+    margin: 20% !important;
 }
 
-img.col-lg-6 {   
-    padding-right:0;
-    padding-left:0;
-}
-
-.my-buttons {
-    margin-top: 5px;
-    align-content: center;
-}
- 
-#carousel-travel {
-    margin: 5%;
-}
-
-#carouselpets {
-    margin: 5%;
-}
-
-
-
+/* Home page image sections */
 .firstSection {
     height: 500px;
     margin-bottom: 3%;
@@ -184,16 +66,127 @@ img.col-lg-6 {
     background-repeat: no-repeat;
 }
 
+
+/* Social media icons for footer */
+
+footer {
+    text-align: center;
+    color: grey;
+    bottom: 0;
+}
+
+i {
+    color: grey;
+    padding: 10px;
+}
+
+i:hover {
+    color: black;
+    padding: 10px;
+}
+
+.copyright {
+    font-size: .8rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0 !important;
+}
+
+/* Navbar brand border, hover color and sizes */
+.navBrand {
+    font-family: 'Open Sans', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+    border-style: solid;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.navBrand:hover {
+    color: #e5e3c9 !important;
+    text-decoration: none !important;
+}
+
+/* React-router-dom class links text color and hover */
+.navLinks {
+    font-family: 'Open Sans', sans-serif;
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.navLinks:hover {
+    color: #e5e3c9 !important;
+    text-decoration: none !important;
+}
+
+
+/* main body margins for all pages */
+.mainContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pricing-description {
+    padding:3%;
+}
+
+.dog-description {
+    padding: 3%;
+}
+
+.about-description {
+    padding: 3%;    
+}
+
+.my-form {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#carousel-travel {
+    margin: 5%;
+}
+
+#carouselpets {
+    margin: 5%;
+}
+
+/* Pricing description and images in bootstrap responsive */
+.col-lg-6.two {
+    border-style: solid;
+    text-align: left;
+    padding: 10%;
+}
+
+.col-lg-6.four {
+    border-style: solid;
+    text-align: left;
+    padding: 10%;
+}
+
+img.col-lg-6 {   
+    padding-right:0;
+    padding-left:0;
+}
+
+/* title page for about and contact */
+
+.title {
+    text-align: center;
+}
+
+.my-buttons {
+    margin-top: 5px;
+    align-content: center;
+}
+
+/* Fixes the gap between your name and email input boxes */
 input#exampleFormControlInput1.form-control {
     margin-bottom: 15px;
 }
 
-.position-absolute {
-    right:15px;
-}
 
-
-@media only screen and (max-width: 768px){
+/* Puts every image and description in certain order for pricing page  in mobile mode*/
+@media screen and (max-width: 531px) {
     h1 {
         font-size: 20px !important;
     }
@@ -209,11 +202,9 @@ input#exampleFormControlInput1.form-control {
     }
 
 }
-@media screen and (max-width: 531px) {
     .container { display: flex; flex-flow: column; }
     .one { order: 1; }
     .two { order: 2;  }
     .three { order: 3; }
     .four { order: 4; }
-   
 }
