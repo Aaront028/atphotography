@@ -200,8 +200,6 @@ input#exampleFormControlInput1.form-control {
         background-size: 250%;
 
     }
-
-}
     .container { display: flex; flex-flow: column; }
     .one { order: 1; }
     .two { order: 2;  }
